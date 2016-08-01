@@ -1,13 +1,13 @@
 package io.github.kermit95.congaudio.recorder;
 
-import io.github.kermit95.congaudio.CongAudioRecorder;
+import io.github.kermit95.congaudio.SimpleAudioRecorder;
 
 /**
  * Created by kermit on 16/7/17.
  *
  */
 
-abstract class AbsRecorder implements CongAudioRecorder{
+abstract class AbsRecorder implements SimpleAudioRecorder {
 
     RecordState mState;
     RecorderCallback mCallback;

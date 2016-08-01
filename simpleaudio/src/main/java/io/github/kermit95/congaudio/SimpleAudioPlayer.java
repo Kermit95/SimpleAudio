@@ -7,7 +7,7 @@ import io.github.kermit95.congaudio.player.PlayerState;
  * Created by kermit on 16/7/13.
  */
 
-public interface CongAudioPlayer {
+public interface SimpleAudioPlayer {
 
     // play
     void play(String tagetPath);

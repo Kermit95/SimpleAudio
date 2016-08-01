@@ -9,7 +9,7 @@ import io.github.kermit95.congaudio.recorder.RecorderCallback;
  *
  */
 
-public interface CongAudioRecorder {
+public interface SimpleAudioRecorder {
 
     // act
     void record(String targetPath);

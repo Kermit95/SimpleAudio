@@ -28,8 +28,8 @@ import java.text.SimpleDateFormat;
 import java.util.Locale;
 
 import io.github.kermit95.congaudio.CongAudioEncoder;
-import io.github.kermit95.congaudio.CongAudioPlayer;
-import io.github.kermit95.congaudio.CongAudioRecorder;
+import io.github.kermit95.congaudio.SimpleAudioPlayer;
+import io.github.kermit95.congaudio.SimpleAudioRecorder;
 import io.github.kermit95.congaudio.encoder.EncoderCallback;
 import io.github.kermit95.congaudio.encoder.MediaCodecEncoder;
 import io.github.kermit95.congaudio.player.AudioPCMPlayer;
@@ -67,9 +67,9 @@ public class AudioRecordActivity extends AppCompatActivity implements View.OnCli
     private ProgressDialog mProgressDialog;
 
     // Audio Worker
-    private CongAudioPlayer mPlayer;
+    private SimpleAudioPlayer mPlayer;
     private CongAudioEncoder mEncoder;
-    private CongAudioRecorder mRecorder;
+    private SimpleAudioRecorder mRecorder;
 
     // data
     private String[] recordFilesName;

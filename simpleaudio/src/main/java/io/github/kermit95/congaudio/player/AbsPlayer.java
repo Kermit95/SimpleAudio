@@ -1,13 +1,13 @@
 package io.github.kermit95.congaudio.player;
 
-import io.github.kermit95.congaudio.CongAudioPlayer;
+import io.github.kermit95.congaudio.SimpleAudioPlayer;
 
 /**
  * Created by kermit on 16/7/17.
  *
  */
 
-abstract class AbsPlayer implements CongAudioPlayer{
+abstract class AbsPlayer implements SimpleAudioPlayer {
 
     PlayerState mState;
     PlayerCallback mCallback;

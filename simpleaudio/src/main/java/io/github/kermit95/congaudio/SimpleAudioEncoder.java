@@ -7,7 +7,7 @@ import io.github.kermit95.congaudio.encoder.EncoderCallback;
  * Created by kermit on 16/7/13.
  */
 
-public interface CongAudioEncoder {
+public interface SimpleAudioEncoder {
 
     void addEncoderCallback(EncoderCallback callback);
 
